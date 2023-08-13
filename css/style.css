@@ -213,7 +213,7 @@ button {
 
 .layout_padding {
     padding-top: 90px;
-    padding-bottom: 0px;
+    padding-bottom: 90px;
 }
 
 .padding_0 {
@@ -233,7 +233,7 @@ button {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #282828;
+    color: #2b2a2a;
     font-size: 18px;
 }
 
@@ -244,7 +244,8 @@ button {
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #f74c67;
+    /* color: #f74c67; */
+    color: #929292;
 }
 
 .login_menu {
@@ -280,7 +281,7 @@ button {
 .banner_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    background-image: url(../images/BG.png);
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -529,7 +530,7 @@ button {
 
 .image_main:hover {
     transform: scale(1.1);
-    background-color: #f75261;
+    background-color: #666666;
     border: 0px;
 }
 
@@ -554,8 +555,8 @@ button {
     margin: 0 10px;
     width: 45px;
     height: 45px;
-    color: #f0390f;
-    border: 2px solid #f0390f;
+    color: #666;
+    border: 2px solid #666666;
 }
 
 .owl-carousel .owl-nav button.owl-next,
@@ -886,11 +887,6 @@ textarea#comment::placeholder {
     width: 170px;
     float: right;
     margin-top: 30px;
-}
-
-.send_bt a {
-    width: 100%;
-    float: left;
     background-color: #f2515e;
     color: #fefeff;
     text-align: center;
@@ -898,10 +894,25 @@ textarea#comment::placeholder {
     font-size: 16px;
 }
 
-.send_bt a:hover {
+/* .send_bt a {
+    width: 100%;
+    float: left;
+    background-color: #f2515e;
+    color: #fefeff;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 16px;
+} */
+
+.send_bt:hover {
     background-color: #363636;
     color: #ffffff;
 }
+
+/* .send_bt a:hover {
+    background-color: #363636;
+    color: #ffffff;
+} */
 
 
 /* contact section end */
