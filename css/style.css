@@ -43,7 +43,7 @@ body {
     line-height: 1.80857;
     font-weight: normal;
     overflow-x: hidden;
-    background: #ffffff !important;
+    background: #c0c0c0 !important;
 }
 
 a {
@@ -224,7 +224,7 @@ button {
 /* header section start */
 
 .bg-light {
-    background-color: #ffffff !important;
+    background-color: #303030 !important;
 }
 
 .logo {
@@ -232,12 +232,17 @@ button {
     float: left;
 }
 
+.navbar-nav {
+    margin-left: 7rem !important;
+}
+
 .navbar-light .navbar-nav .nav-link {
-    color: #2b2a2a;
+    color: #ececec !important;
     font-size: 18px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
+    color: #ececec !important;
     padding: 10px 30px;
     text-align: center;
 }
@@ -245,7 +250,12 @@ button {
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
     /* color: #f74c67; */
-    color: #929292;
+    color: #ececec !important;
+    color: #ececec;
+}
+
+.items {
+    color: #fff !important;
 }
 
 .login_menu {
@@ -281,15 +291,15 @@ button {
 .banner_section {
     width: 100%;
     float: left;
-    background-image: url(../images/BG.png);
+    background-image: url(../images/BG-2.png);
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
-.banner_bg {
+/* .banner_bg {
     margin-left: 30px;
-}
+} */
 
 .taital_main {
     width: 100%;
@@ -321,7 +331,7 @@ button {
 .read_bt {
     width: 170px;
     float: left;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .read_bt a {
@@ -385,8 +395,11 @@ button {
 /* about section start */
 
 .about_section {
+    margin-top: 5rem;
     width: 100%;
+    background-color: #303030;
     float: left;
+    margin-bottom: 5rem;
 }
 
 .about_img {
@@ -397,7 +410,7 @@ button {
 .about_taital {
     width: 100%;
     font-size: 40px;
-    color: #363636;
+    color: #e0e0e0;
     font-weight: bold;
     text-transform: uppercase;
     padding-top: 70px;
@@ -429,14 +442,14 @@ button {
     float: left;
     font-size: 18px;
     text-align: center;
-    color: #ffffff;
-    background-color: #363636;
+    color: #474747;
+    background-color: #c4c4c4;
     padding: 10px 0px;
 }
 
 .read_bt_1 a:hover {
     color: #ffffff;
-    background-color: #f2515e;
+    background-color: #696969;
 }
 
 .image_1 {
@@ -536,7 +549,7 @@ button {
 
 .owl-carousel .owl-item .image_main img {
     display: block;
-    width: 100px;
+    width: 145px;
     height: auto;
 }
 
@@ -829,7 +842,7 @@ button {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #000;
+    color: #363636;
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
@@ -844,6 +857,8 @@ button {
 .image_7 {
     width: 100%;
     float: left;
+    margin-left: 1rem;
+    border-radius: 20px;
 }
 
 .mail_section_1 {
@@ -887,8 +902,8 @@ textarea#comment::placeholder {
     width: 170px;
     float: right;
     margin-top: 30px;
-    background-color: #f2515e;
-    color: #fefeff;
+    color: #474747;
+    background-color: #9b9898;
     text-align: center;
     padding: 10px 0px;
     font-size: 16px;
@@ -905,8 +920,8 @@ textarea#comment::placeholder {
 } */
 
 .send_bt:hover {
-    background-color: #363636;
     color: #ffffff;
+    background-color: #696969;
 }
 
 /* .send_bt a:hover {
@@ -940,7 +955,7 @@ textarea#comment::placeholder {
 
 .location_icon li {
     float: left;
-    background-color: #f2515e;
+    background-color: #c4c4c4;
     border-radius: 100%;
     width: 60px;
     height: 60px;
@@ -952,10 +967,13 @@ textarea#comment::placeholder {
     margin-top: 5px;
 }
 
-.location_icon li a:hover {
-    background-color: #f77441;
-}
+/* .location_icon li a:hover {
+    background-color: #c4c4c4;
+} */
 
+.location_icon li:hover {
+    background-color: #858585;
+}
 .mail_box {
     width: 90%;
     display: flex;
@@ -1025,6 +1043,7 @@ textarea#comment::placeholder {
     float: left;
     font-size: 24px;
     color: #fefefe;
+    font-weight: 600;
     text-transform: uppercase;
 }
 

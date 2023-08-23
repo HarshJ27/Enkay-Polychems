@@ -4201,6 +4201,7 @@ input[type="button"].btn-block {
 .navbar-expand .navbar-nav {
   -ms-flex-direction: row;
   flex-direction: row;
+  margin-left: 100px;
 }
 
 .navbar-expand .navbar-nav .dropdown-menu {
@@ -4253,7 +4254,7 @@ input[type="button"].btn-block {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgb(236, 236, 236);
 }
 
 .navbar-light .navbar-toggler {
